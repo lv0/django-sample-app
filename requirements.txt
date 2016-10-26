@@ -5,5 +5,4 @@ django-extensions==1.5.5
 six
 sqlparse==0.1.15
 wsgiref==0.1.2
-uwsgi
-
+gunicorn
