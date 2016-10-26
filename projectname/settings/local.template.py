@@ -15,13 +15,14 @@ COMPRESS_ENABLED = True
 DATABASES = {
     'default': {
         # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dev_database_name',
+        'ENGINE': 'django.db.backends.sqlite3',
+        #'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dev_database_name.db',
         # The rest is not used with sqlite3:
-        'USER': 'dev_user',
-        'PASSWORD': 'dev_p@ssword',
-        'HOST': 'localhost',
-        'PORT': '',
+#        'USER': 'dev_user',
+#        'PASSWORD': 'dev_p@ssword',
+#        'HOST': 'localhost',
+#        'PORT': '',
     }
 }
 
